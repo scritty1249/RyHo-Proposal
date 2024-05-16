@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RyHo Rentals Proposed Drive Structure]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://scritty1249.github.io/RyHo-Proposal/</link><image><url>https://scritty1249.github.io/RyHo-Proposal/lib/media/favicon.png</url><title>RyHo Rentals Proposed Drive Structure</title><link>https://scritty1249.github.io/RyHo-Proposal/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 04 May 2024 13:02:13 GMT</lastBuildDate><atom:link href="https://scritty1249.github.io/RyHo-Proposal/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 04 May 2024 13:02:13 GMT</pubDate><copyright><![CDATA[Kyle Tran]]></copyright><ttl>60</ttl><dc:creator>Kyle Tran</dc:creator><item><title><![CDATA[FIle Hierarchy Documentation]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RyHo Rentals Proposed Drive Structure]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://scritty1249.github.io/RyHo-Proposal/</link><image><url>https://scritty1249.github.io/RyHo-Proposal/lib/media/favicon.png</url><title>RyHo Rentals Proposed Drive Structure</title><link>https://scritty1249.github.io/RyHo-Proposal/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 16 May 2024 03:46:57 GMT</lastBuildDate><atom:link href="https://scritty1249.github.io/RyHo-Proposal/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 16 May 2024 03:46:57 GMT</pubDate><copyright><![CDATA[Kyle Tran]]></copyright><ttl>60</ttl><dc:creator>Kyle Tran</dc:creator><item><title><![CDATA[FIle Hierarchy Documentation]]></title><description><![CDATA[ 
  <br><br>The following list contains the locations of files and shortcuts to them.<br>
 Formatting guide<br>
 File location
@@ -13,6 +13,10 @@ Referencing file location<br>#### Timesheet Form (Responses)
 ``/Operations/Company/Form Responses/Timesheet Form/Timesheet Form (Responses).gsheet``
 - Payment
   ``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Payment &amp; Labor.gsheet``
+#### Payment &amp; Labor
+``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Payment &amp; Labor.gsheet``
+- Payment
+  ``/Operations/Human Resources/Payment Interface.gsheet``
 #### Onboarding Form (Responses)
 ``/Operations/Form Responses/Company/Onboarding Form/Onboarding Form (Responses).gsheet``
 - Employee &amp; Contractor Index
@@ -21,6 +25,8 @@ Referencing file location<br>#### Timesheet Form (Responses)
 ``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Employee &amp; Contractor Index.gsheet``
 - Payment
   ``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Payment &amp; Labor.gsheet``
+- Payment
+  ``/Operations/Human Resources/Payment Interface.gsheet``
 #### FormSubmissions
 ``/Operations/Information Technology/Scripts/FormSubmissions.gscript``
 - Form Responses
@@ -41,68 +47,26 @@ Referencing file location<br>#### Timesheet Form (Responses)
   ``/content/gdrive/MyDrive/DEV RYHO RENTALS/Operations/Form Responses/Company/On-Site Checkout Form/On-Site Checkout Form (Responses).gsheet``
 - Form Responses
   ``/content/gdrive/MyDrive/DEV RYHO RENTALS/Operations/Form Responses/Company/Timesheet Form/Timesheet Form (Responses).gsheet``
-  
+#### Job Code Index
+``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Job Code Index.gsheet``
+- Job Code Index (reference)
+  ``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Employee &amp; Contractor Index.gsheet``
+#### Sales Report
+``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Sales.gsheet``
+- Sales Report (reference)
+  ``/Operations/Human Resources/Financial Dashboard 2024 Charts.gsheet``
 #### Sales Report 2024 Form (Responses)
 ``/Operations/Form Responses/Company/Sales Report 2024 Form/Sales Report 2024 Form (Responses).gsheet``
 - Sales Report
-  ``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Sales.gsheet``]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/documentation/file-hierarchy-documentation.html</link><guid isPermaLink="false">Updating Drive Structure/Documentation/FIle Hierarchy Documentation.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:32:23 GMT</pubDate></item><item><title><![CDATA[Google Apps Scripting Documentation]]></title><description><![CDATA[ 
- <br><br>Every Form response sheet has a trigger linked to the function updateFormattingOnFormSubmit. It is responsible for updating the formatting of cells when new submissions are entered.<br>* Conditional formatting is not copied, but can be configured to do so- new triggers will need to be made to apply this.<br>
-* Formatting does not seem to apply to imported ranges, so datevalue formats must be formatted as they are submitted as raw data- this will also make things readable if anyone needs to look at the form response sheets.]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/documentation/google-apps-scripting-documentation.html</link><guid isPermaLink="false">Updating Drive Structure/Documentation/Google Apps Scripting Documentation.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:37:46 GMT</pubDate></item><item><title><![CDATA[Linked Spreadsheets]]></title><description><![CDATA[ 
- <br>Form-Spreadsheet links in the original RyHo Drive.<br>
-* this does not show shortcuts<br>These links are highlighted in blue in the <a data-tooltip-position="top" aria-label="[DEV] RyHo Directory Structure.svg" data-href="[DEV] RyHo Directory Structure.svg" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" class="internal-link" target="_self" rel="noopener">directory map</a>.<br>]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/linked-spreadsheets.html</link><guid isPermaLink="false">Updating Drive Structure/Linked Spreadsheets.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:35:39 GMT</pubDate></item><item><title><![CDATA[Original Drive Structure]]></title><description><![CDATA[ 
- <br>The <a data-tooltip-position="top" aria-label="[DEV] RyHo Directory Structure.svg" data-href="[DEV] RyHo Directory Structure.svg" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" class="internal-link" target="_self" rel="noopener">SVG version of the map</a> is interactive! When viewing the downloaded map in a web browser, click a file or folder to get a highlight of it's immediate parent and child contents, or a link to the file in Google Drive. Press "Enable/Disable Links" to change this behavior.<br>Current Map:<br>
-<img alt="[DEV] RyHo Directory Structure.svg" src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg"><br>
-Work in Progress Map:<br>
-<img alt="RyHo Directory Structure.svg" src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/ryho-directory-structure.svg"><br>Mapping script:<br>
-(written in python in case the Process Manager finds a use for it)<br>
-<a rel="noopener" class="external-link" href="https://colab.research.google.com/drive/1vDTYCGFhysWu7N3ioYL4ru2ShCtGJ497?usp=sharing" target="_blank">https://colab.research.google.com/drive/1vDTYCGFhysWu7N3ioYL4ru2ShCtGJ497?usp=sharing</a>]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/original-drive-structure.html</link><guid isPermaLink="false">Updating Drive Structure/Original Drive Structure.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:34:16 GMT</pubDate><enclosure url="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Preface]]></title><description><![CDATA[ 
- <br>The goal of this documentation is to have a set of visual aids and clear outline following the process of updating the RyHo Rentals Google Drive structure.<br>After some discussion, it became clear that putting sensitive formulas integral to specific backend functions and dashboards in the same sheets as form responses would cause issues. Information is liable to be overwritten depending on when things are changed in the form linked to the spreadsheet.<br>The proposed structure I was tasked to create was to separate spreadsheets with formulas from sheets with form responses, and to remove any redundancies or broken functions as I found them. <br>* Spreadsheets are distinct from Sheets, Spreadsheets refer to the file and Sheets are the individual ones contained within<br>See <a data-href="Reasoning for Changes" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/reasoning-for-changes.html" class="internal-link" target="_self" rel="noopener">Reasoning for Changes</a> for details on what has been modified so far and why.<br>See <a data-href="TODO" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/todo.html" class="internal-link" target="_self" rel="noopener">TODO</a> for what's been done and remaining progress.]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/preface.html</link><guid isPermaLink="false">Updating Drive Structure/Preface.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:38:51 GMT</pubDate></item><item><title><![CDATA[Reasoning for Changes]]></title><description><![CDATA[ 
- <br><br>Directory map as of 04/23/2024 at 02:23 AM (PST)<br>
-<img alt="[DEV] RyHo Directory Structure.svg" src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg"><br>To streamline the process should this ever have to be done again, and because of the absence of any existing documentation, I set about creating a <a data-tooltip-position="top" aria-label="Original Drive Structure" data-href="Original Drive Structure" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/original-drive-structure.html" class="internal-link" target="_self" rel="noopener">tool to get a visual map</a> <a data-tooltip-position="top" aria-label="[DEV] RyHo Directory Structure.svg" data-href="[DEV] RyHo Directory Structure.svg" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" class="internal-link" target="_self" rel="noopener">of the existing Drive structure</a>. Using this tool to remove redundancies, <a data-tooltip-position="top" aria-label="Linked Spreadsheets" data-href="Linked Spreadsheets" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/linked-spreadsheets.html" class="internal-link" target="_self" rel="noopener">forms and their linked spreadsheets</a> have been collected into standalone folders, isolated from the rest of the Drive. The goal is to make it easier to restrict access to more sensitive information as needed, without compromising ease of use for key staff.<br><br>See <a data-href="FIle Hierarchy Documentation" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/documentation/file-hierarchy-documentation.html" class="internal-link" target="_self" rel="noopener">FIle Hierarchy Documentation</a> for notes and documentation on the Drive structure.<br>Google Forms have all been separated into a designated folder following the path,<br>/Operations/Forms/
-Copy<br>and have been separated further between forms used by those outside of the company, and those within.<br>/Operations/Forms/External/
-/Operations/Forms/Company/
-Copy<br>The corresponding Form Responses are stored in alongside the Forms/ folder in the path:<br>/Operations/Form Responses/
-Copy<br>The structure each response is stored in mirrors the Forms they are linked to. This should make it easier to find the corresponding data for any Forms in the future.<br>
-Form Response Spreadsheets only contain one Sheet- for the corresponding Form. The name of the Sheet must be "Form Responses".<br>/Operations/Form Responses/External/
-/Operations/Form Responses/Company/
-Copy<br>Dashboards/Interfaces have been separated into their own Spreadsheets. The data containing calculations for each are stored in,<br>/Operations/Information Technology/Dashboard &amp; Interface Calculations
-Copy<br>Organizational Intent:<br>
-<br>ALL information can be found in this central folder, no matter what. References(Shortcuts) to these files can be placed anywhere, but the sources should remain here.
-<br>Keeping everything in one place should not only make things easier to find, but also simplify migrating data in the future
-<br>Prevents accidental deletions. NOTHING should be deleted in these folders unless management gives the OK.<br>
-Security Intent:
-<br>When needed, view access to specific information can be easily revoked while retaining access to information critical to job functions. (Example- Currently, people are unable to interact with the Financial Data interface without full write access to all Timesheet logs. This could be very bad if someone were to tamper with the logs.)
-<br><br>To maintain consistency and clarity the following names have been edited, alongside any connected spreadsheets and response folders:<br>
-<br>Interview Availability -&gt; Interview Availability Form
-<br>Applicant Scorecard -&gt; Applicant Scorecard Form
-<br>Sales Report 2024 -&gt; Sales Report 2024 Form
-<br>Disbursement Form -&gt; Advance Payment Disbursement Form
-<br>Request Form -&gt; Advance Payment Request Form
-<br>Reconciliation Form -&gt; Advance Payment Reconciliation Form
-<br>I edited or added response validation to the following:<br>
-<br>
-Email formatting validation for Interview Availability Form, Onboarding Form and RyHo Rentals Application Form to reject any input that does not match the pattern of a valid email address. All email formatting validation follows the same Regular Expression pattern:
-^([^\s]+)@([^\s]+)\.([^\s\.]+)$           &lt;- (Google uses the RE2, or "Golang" RegEx Engine)<br>
-*This pattern specifically searches for any length of any non-space characters surrounding and between an ampersand and a period.
+  ``/Operations/Information Technology/Dashboard &amp; Interface Calculations/Sales.gsheet``]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/documentation/file-hierarchy-documentation.html</link><guid isPermaLink="false">Updating Drive Structure/Documentation/FIle Hierarchy Documentation.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Thu, 16 May 2024 03:42:52 GMT</pubDate></item><item><title><![CDATA[Notes]]></title><description><![CDATA[ 
+ <br>Loose-leaf, notes for an assortment of topics related to the Drive.<br><br>
+<br>Financial Dashboard 2024 - Form Responses
 
-<br>
-Lunch break length fields in the On-Site Checkout Form and Timesheet Form have been set to specifically take a duration value following the HH:MM:SS format. Field descriptions have been included in the affected forms to clarify the format.
+<br>Commissions field (col H) formula appears to be:
 
-<br>
-Input fields for dollar amounts in the On-Site Checkout Form, Sales Report 2024 Form,  Equipment Liquidation Form, Disbursement Form, Request Form, and Reconciliation Form have been set to only accept number values at or greater than zero.
 
-<br>Intent for Form Validation changes:<br>
-<br>I have repeatedly seen formulas break from erroneous user input or lack of clarity in form descriptions (such as what units of time to use, hours vs minutes). I believe the problem can be rendered null be solved by indicating in the forms that only specific types of information are acceptable (Example: do not put words in a field that is supposed to be a number)
-<br>More significant modifications:<br>
-<br>The Timesheets Form question for "Lunch Duration" has been replaced with "Lunch Break?", and "Lunch In" and "Lunch Out" have been moved to a new section called "Lunch Break". The question "Did you pay for something that needs reimbursement?" has been moved to a new section called "Reimbursement?" but otherwise functions the same.
-<br><br>To clarify for those editing sheets later, bottom borders in the header row following a color code based on content and intended purpose:<br>
-<br>Orange - columns for users to change values (Example: checkboxes)
-<br>Blue - columns that reference data from other Spreadsheets
-<br>Yellow - columns that contain formulas which do not reference other spreadsheets
-<br>Grey - other
-<br>To clarify data being handled by formulas, all columns that use distinctive formatting (such as dollar formatting and time formatting) have their header's top border colored green.<br><br>To facilitate the function of dashboards and interfaces with minimal manual intervention, I have used Google Apps Scripts to automate the creation of certain rows. See <a data-href="Google Apps Scripting Documentation" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/documentation/google-apps-scripting-documentation.html" class="internal-link" target="_self" rel="noopener">Google Apps Scripting Documentation</a> for notes and documentation. <br>\\ This documentation is still incomplete, and at the time of writing only the linked spreadsheets have been mapped out.<br>
-\\ In progress directory structure:<br>
-<img alt="RyHo Directory Structure.svg" src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/ryho-directory-structure.svg">]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/reasoning-for-changes.html</link><guid isPermaLink="false">Updating Drive Structure/Reasoning for Changes.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:34:16 GMT</pubDate><enclosure url="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[TODO]]></title><description><![CDATA[ 
+]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/notes.html</link><guid isPermaLink="false">Updating Drive Structure/Notes.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Thu, 09 May 2024 01:21:57 GMT</pubDate></item><item><title><![CDATA[Preface]]></title><description><![CDATA[ 
+ <br>The goal of this documentation is to have a set of visual aids and clear outline following the process of updating the RyHo Rentals Google Drive structure.<br>After some discussion, it became clear that putting sensitive formulas integral to specific backend functions and dashboards in the same sheets as form responses would cause issues. Information is liable to be overwritten depending on when things are changed in the form linked to the spreadsheet.<br>The proposed structure I was tasked to create was to separate spreadsheets with formulas from sheets with form responses, and to remove any redundancies or broken functions as I found them. <br>* Spreadsheets are distinct from Sheets, Spreadsheets refer to the file and Sheets are the individual ones contained within<br>See <a data-href="Reasoning for Changes" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/reasoning-for-changes.html" class="internal-link" target="_self" rel="noopener">Reasoning for Changes</a> for details on what has been modified so far and why.<br>See <a data-href="TODO" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/todo.html" class="internal-link" target="_self" rel="noopener">TODO</a> for what's been done and remaining progress.<br>See <a data-href="Notes" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/notes.html" class="internal-link" target="_self" rel="noopener">Notes</a> for general notes taken during the process. These will likely not be proofread or formatted, and are not meant to be formally published as part of the documentation. They are meant solely as a resource for anyone working on this after me and as insurance for accountability.]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/preface.html</link><guid isPermaLink="false">Updating Drive Structure/Preface.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Thu, 09 May 2024 01:20:33 GMT</pubDate></item><item><title><![CDATA[TODO]]></title><description><![CDATA[ 
  <br><br>Note: The remaking Dashboards and Interfaces tasks are mostly copy-paste work, and should be done last for the sake of time. Optimizing and formulas should be top priority, and creating a rigid standardized format to follow.<br>
 <br>Get a current map of Google Drive
 
@@ -153,7 +117,7 @@ Input fields for dollar amounts in the On-Site Checkout Form, Sales Report 2024 
 <br>Write formulas
 <br>Documentation
 <br>Bug test<br>
-(currently cannot handle entries that go past midnight)
+currently cannot handle entries that go past midnight FIXED
 
 
 <br>Formatting
@@ -394,26 +358,62 @@ Input fields for dollar amounts in the On-Site Checkout Form, Sales Report 2024 
 
 
 
-<br>Transfer Data
-
-<br>Employees
-
-<br>Wages
 
 
-<br>Timesheet records
-<br>Sales Reports
-<br>Non-calculation related
+]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/todo.html</link><guid isPermaLink="false">Updating Drive Structure/TODO.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Thu, 16 May 2024 03:37:57 GMT</pubDate></item><item><title><![CDATA[Google Apps Scripting Documentation]]></title><description><![CDATA[ 
+ <br><br>Every Form response sheet has a trigger linked to the function updateFormattingOnFormSubmit. It is responsible for updating the formatting of cells when new submissions are entered.<br>* Conditional formatting is not copied, but can be configured to do so- new triggers will need to be made to apply this.<br>
+* Formatting does not seem to apply to imported ranges, so datevalue formats must be formatted as they are submitted as raw data- this will also make things readable if anyone needs to look at the form response sheets.]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/documentation/google-apps-scripting-documentation.html</link><guid isPermaLink="false">Updating Drive Structure/Documentation/Google Apps Scripting Documentation.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:37:46 GMT</pubDate></item><item><title><![CDATA[Linked Spreadsheets]]></title><description><![CDATA[ 
+ <br>Form-Spreadsheet links in the original RyHo Drive.<br>
+* this does not show shortcuts<br>These links are highlighted in blue in the <a data-tooltip-position="top" aria-label="[DEV] RyHo Directory Structure.svg" data-href="[DEV] RyHo Directory Structure.svg" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" class="internal-link" target="_self" rel="noopener">directory map</a>.<br>]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/linked-spreadsheets.html</link><guid isPermaLink="false">Updating Drive Structure/Linked Spreadsheets.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:35:39 GMT</pubDate></item><item><title><![CDATA[Original Drive Structure]]></title><description><![CDATA[ 
+ <br>The <a data-tooltip-position="top" aria-label="[DEV] RyHo Directory Structure.svg" data-href="[DEV] RyHo Directory Structure.svg" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" class="internal-link" target="_self" rel="noopener">SVG version of the map</a> is interactive! When viewing the downloaded map in a web browser, click a file or folder to get a highlight of it's immediate parent and child contents, or a link to the file in Google Drive. Press "Enable/Disable Links" to change this behavior.<br>Current Map:<br>
+<img alt="[DEV] RyHo Directory Structure.svg" src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg"><br>
+Work in Progress Map:<br>
+<img alt="RyHo Directory Structure.svg" src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/ryho-directory-structure.svg"><br>Mapping script:<br>
+(written in python in case the Process Manager finds a use for it)<br>
+<a rel="noopener" class="external-link" href="https://colab.research.google.com/drive/1vDTYCGFhysWu7N3ioYL4ru2ShCtGJ497?usp=sharing" target="_blank">https://colab.research.google.com/drive/1vDTYCGFhysWu7N3ioYL4ru2ShCtGJ497?usp=sharing</a>]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/original-drive-structure.html</link><guid isPermaLink="false">Updating Drive Structure/Original Drive Structure.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:34:16 GMT</pubDate><enclosure url="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Reasoning for Changes]]></title><description><![CDATA[ 
+ <br><br>Directory map as of 04/23/2024 at 02:23 AM (PST)<br>
+<img alt="[DEV] RyHo Directory Structure.svg" src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg"><br>To streamline the process should this ever have to be done again, and because of the absence of any existing documentation, I set about creating a <a data-tooltip-position="top" aria-label="Original Drive Structure" data-href="Original Drive Structure" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/original-drive-structure.html" class="internal-link" target="_self" rel="noopener">tool to get a visual map</a> <a data-tooltip-position="top" aria-label="[DEV] RyHo Directory Structure.svg" data-href="[DEV] RyHo Directory Structure.svg" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" class="internal-link" target="_self" rel="noopener">of the existing Drive structure</a>. Using this tool to remove redundancies, <a data-tooltip-position="top" aria-label="Linked Spreadsheets" data-href="Linked Spreadsheets" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/linked-spreadsheets.html" class="internal-link" target="_self" rel="noopener">forms and their linked spreadsheets</a> have been collected into standalone folders, isolated from the rest of the Drive. The goal is to make it easier to restrict access to more sensitive information as needed, without compromising ease of use for key staff.<br><br>See <a data-href="FIle Hierarchy Documentation" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/documentation/file-hierarchy-documentation.html" class="internal-link" target="_self" rel="noopener">FIle Hierarchy Documentation</a> for notes and documentation on the Drive structure.<br>Google Forms have all been separated into a designated folder following the path,<br>/Operations/Forms/
+Copy<br>and have been separated further between forms used by those outside of the company, and those within.<br>/Operations/Forms/External/
+/Operations/Forms/Company/
+Copy<br>The corresponding Form Responses are stored in alongside the Forms/ folder in the path:<br>/Operations/Form Responses/
+Copy<br>The structure each response is stored in mirrors the Forms they are linked to. This should make it easier to find the corresponding data for any Forms in the future.<br>
+Form Response Spreadsheets only contain one Sheet- for the corresponding Form. The name of the Sheet must be "Form Responses".<br>/Operations/Form Responses/External/
+/Operations/Form Responses/Company/
+Copy<br>Dashboards/Interfaces have been separated into their own Spreadsheets. The data containing calculations for each are stored in,<br>/Operations/Information Technology/Dashboard &amp; Interface Calculations
+Copy<br>Organizational Intent:<br>
+<br>ALL information can be found in this central folder, no matter what. References(Shortcuts) to these files can be placed anywhere, but the sources should remain here.
+<br>Keeping everything in one place should not only make things easier to find, but also simplify migrating data in the future
+<br>Prevents accidental deletions. NOTHING should be deleted in these folders unless management gives the OK.<br>
+Security Intent:
+<br>When needed, view access to specific information can be easily revoked while retaining access to information critical to job functions. (Example- Currently, people are unable to interact with the Financial Data interface without full write access to all Timesheet logs. This could be very bad if someone were to tamper with the logs.)
+<br><br>To maintain consistency and clarity the following names have been edited, alongside any connected spreadsheets and response folders:<br>
+<br>Interview Availability -&gt; Interview Availability Form
+<br>Applicant Scorecard -&gt; Applicant Scorecard Form
+<br>Sales Report 2024 -&gt; Sales Report 2024 Form
+<br>Disbursement Form -&gt; Advance Payment Disbursement Form
+<br>Request Form -&gt; Advance Payment Request Form
+<br>Reconciliation Form -&gt; Advance Payment Reconciliation Form
+<br>I edited or added response validation to the following:<br>
+<br>
+Email formatting validation for Interview Availability Form, Onboarding Form and RyHo Rentals Application Form to reject any input that does not match the pattern of a valid email address. All email formatting validation follows the same Regular Expression pattern:
+^([^\s]+)@([^\s]+)\.([^\s\.]+)$           &lt;- (Google uses the RE2, or "Golang" RegEx Engine)<br>
+*This pattern specifically searches for any length of any non-space characters surrounding and between an ampersand and a period.
 
-<br>Tails on Set
-<br>Archive 2023
-<br>Quotes
-<br>Manuals/Handbooks
-<br>Duty Statements
+<br>
+Lunch break length fields in the On-Site Checkout Form and Timesheet Form have been set to specifically take a duration value following the HH:MM:SS format. Field descriptions have been included in the affected forms to clarify the format.
 
+<br>
+Input fields for dollar amounts in the On-Site Checkout Form, Sales Report 2024 Form,  Equipment Liquidation Form, Disbursement Form, Request Form, and Reconciliation Form have been set to only accept number values at or greater than zero.
 
-
-
-
-
-]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/todo.html</link><guid isPermaLink="false">Updating Drive Structure/TODO.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Tue, 30 Apr 2024 00:13:17 GMT</pubDate></item></channel></rss>
+<br>Intent for Form Validation changes:<br>
+<br>I have repeatedly seen formulas break from erroneous user input or lack of clarity in form descriptions (such as what units of time to use, hours vs minutes). I believe the problem can be rendered null be solved by indicating in the forms that only specific types of information are acceptable (Example: do not put words in a field that is supposed to be a number)
+<br>More significant modifications:<br>
+<br>The Timesheets Form question for "Lunch Duration" has been replaced with "Lunch Break?", and "Lunch In" and "Lunch Out" have been moved to a new section called "Lunch Break". The question "Did you pay for something that needs reimbursement?" has been moved to a new section called "Reimbursement?" but otherwise functions the same.
+<br><br>To clarify for those editing sheets later, bottom borders in the header row following a color code based on content and intended purpose:<br>
+<br>Orange - columns for users to change values (Example: checkboxes)
+<br>Blue - columns that reference data from other Spreadsheets
+<br>Yellow - columns that contain formulas which do not reference other spreadsheets
+<br>Grey - other
+<br>To clarify data being handled by formulas, all columns that use distinctive formatting (such as dollar formatting and time formatting) have their header's top border colored green.<br><br>To facilitate the function of dashboards and interfaces with minimal manual intervention, I have used Google Apps Scripts to automate the creation of certain rows. See <a data-href="Google Apps Scripting Documentation" href="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/documentation/google-apps-scripting-documentation.html" class="internal-link" target="_self" rel="noopener">Google Apps Scripting Documentation</a> for notes and documentation. <br>\\ This documentation is still incomplete, and at the time of writing only the linked spreadsheets have been mapped out.<br>
+\\ In progress directory structure:<br>
+<img alt="RyHo Directory Structure.svg" src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/ryho-directory-structure.svg">]]></description><link>https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/reasoning-for-changes.html</link><guid isPermaLink="false">Updating Drive Structure/Reasoning for Changes.md</guid><dc:creator><![CDATA[Kyle Tran]]></dc:creator><pubDate>Sat, 04 May 2024 09:34:16 GMT</pubDate><enclosure url="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg" length="0" type="image/svg+xml"/><content:encoded>&lt;figure&gt;&lt;img src="https://scritty1249.github.io/RyHo-Proposal/updating-drive-structure/files/[dev]-ryho-directory-structure.svg"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
